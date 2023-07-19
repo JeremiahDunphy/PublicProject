@@ -1,50 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <section>
-  <section> 
-    <nav>
-        <img src="./assets/HTML Practise Assets/FES.svg" alt="">
-        <ul>
-            <li><a = href="#About">About</a></Li>
-            <li><a = href="#Discord">Discord</a></Li>
-            <li><a = href="#Contact">Contact</a></Li>
-            <Li>Discord</Li>
-            <Li>Contact</LI>
-        </ul>
-    </nav>
-<header>
-    <div>
-    <h1>
-        Best Place to Learn Front-End.
-    </h1>
-    <p>Go from being an absolute beginner, to being a pro.</p>
-    <button>Start Now.</button>
+    <section>
+        <nav>
+            <img class="Logo" src="./assets/HTML Practise Assets/FES.svg" alt="">
+            <ul>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Discord">Discord</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+            <div>
+                <h1>
+                    Best place to learn frontend.
+                </h1>
+                <p class="imagetext">Go from being an absolute beginner, to being a pro.</p>
+                <button>Start Now.</button>
+            </div>
+            <figure>
+                <img src="/assets/HTML Practise Assets/laptop.png" alt="">
+                <figcaption> Laptop </figcaption>
+            </figure>
         </div>
-        <figure>
-            <img src="/assets/HTML Practise Assets/laptop.png" alt ="">
-            <figcaption> Laptop </figcaption>
-        </figure>
-</header> 
-</section>
-<main>
-    <section id="About">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, eum autem excepturi quaerat sequi consequatur? Qui temporibus rem magni voluptate natus nulla, nihil maxime nam cum enim, voluptatem quos voluptates?</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos dolorum molestiae sint fuga? Excepturi, eveniet temporibus id aspernatur itaque eos harum ratione incidunt, dolore, a quae facere aliquam libero.</p>
-        <,
+        </header>
     </section>
-    <section id="Discord">
+    <main>
+        <section id="About">
+            <h2 class="h2about">About</h2>
+            <div class="row"> 
+            <div class="section__description">
+            <div class="section__descriptionsub">
+                <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, eum autem excepturi quaerat sequi
+                    consequatur? Qui temporibus rem magni voluptate natus nulla, nihil maxime nam cum enim, voluptatem
+                    quos voluptates?</p>
 
-    </section>
-    <section id="Contact">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos dolorum molestiae sint fuga?
+                    Excepturi, eveniet temporibus id aspernatur itaque eos harum ratione incidunt, dolore, a quae facere
+                    aliquam libero.</p>
+            </div>
+            <figure class="about__image--wrapper">
+                <img src="/assets/HTML Practise Assets/about.jpg" alt="">
+            </figure>
+        </div>
+    </div>
+        </section>
+        <section id="Discord">
 
-    </section>
-</main>
-</body>
+            <h2 class="h2about">Discord</h2>
+            <div class="row">
+            <div class="section__description">
+            <figure class="about__image--wrapper">
+                <img src="/assets/HTML Practise Assets/discord.png" alt="Join our Discord">
+            </figure>
+            <div>
+                <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusantium beatae cupiditate,
+                    excepturi
+                    ipsam provident quo necessitatibus consequuntur temporibus vitae nemo quibusdam totam quaerat, id
+                    nihil quia
+                    quidem. Velit, ab?
+                </p>
+                <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusantium beatae cupiditate,
+                    excepturi
+                    ipsam provident quo necessitatibus consequuntur temporibus vitae nemo quibusdam totam quaerat, id
+                    nihil quia
+                    quidem. Velit, ab?
+                </p>
+            </div>
+            </div>
+        </div>
+
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <div class="row">
+            <form action=""> Email
+            <input type="email" placeholder="jane@example.com">
+            <Label>Message</Label>
+            <form action="">
+            <textarea type="text" placeholder="Cool Website, lets get connected!"> </textarea>
+            <button>Contact Us!</button>
+            </form>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <img class="Logo" src="assets/HTML Practise Assets/FES.svg" alt="">
+        <div class="footer_links">
+            <a class ="footer_link" href="#About">About</a>
+            <a class ="footer_link" href="#Discord">Discord</a>
+            <a class ="footer_link" href="#Contact">Contact</a> 
+            <a class ="footer_link" href="#Courses">Courses</a> 
+        </div>
+    <p>Copyright Frontend Simplified</p>
+    </footer>
+    </body>
+
 </html>
